@@ -1,0 +1,13 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/prompt.py" = ["E501"]  # long few-shot prompt data strings
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
