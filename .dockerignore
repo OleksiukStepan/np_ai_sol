@@ -1,0 +1,23 @@
+# Secrets
+.env
+keys/
+
+# Virtual environments
+.venv/
+venv/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Generated output and local data
+output/
+docs/
+
+# Tooling / VCS
+.git/
+.gitignore
+.pytest_cache/
+tests/
+.claude/
