@@ -1,0 +1,28 @@
+# Secrets / credentials
+.env
+keys/
+
+# Virtual environments
+.venv/
+venv/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Test cache
+.pytest_cache/
+
+# Generated output
+output/
+
+# Task source files (real input + PDF) — kept local; samples/ ships instead
+docs/
+
+# OS files
+.DS_Store
+
+# Claude files
+.claude/
+CLAUDE.md
